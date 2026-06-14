@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>安琪，毕业快乐</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: '微软雅黑', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 36px;
+        }
+        
+        .subtitle {
+            color: #999;
+            margin-bottom: 40px;
+            font-size: 16px;
+        }
+        
+        .message {
+            background: #f9f9f9;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            line-height: 1.8;
+            color: #666;
+            font-size: 16px;
+        }
+        
+        audio {
+            width: 100%;
+            margin: 30px 0;
+            border-radius: 5px;
+        }
+        
+        .footer {
+            color: #ccc;
+            margin-top: 30px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎓 安琪，毕业快乐！</h1>
+        <p class="subtitle">点击播放，听听我的祝福 ✨</p>
+        
+        <div class="message">
+            <p>亲爱的安琪，</p>
+            <p style="margin-top: 15px;">
+                毕业了！祝你在新的人生阶段里，
+                <br>开心每一天，闪闪发光✨
+            </p>
+        </div>
+        
+        <!-- 这里填你的MP3文件名 -->
+        <audio controls>
+            <source src="安琪，毕业快乐.mp3" type="audio/mpeg">
+            你的浏览器不支持音频播放，请尝试用其他浏览器
+        </audio>
+        
+        <div class="footer">
+            <p>💝 专为你制作的毕业礼物</p>
+        </div>
+    </div>
+</body>
+</html>
